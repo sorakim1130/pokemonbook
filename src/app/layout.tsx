@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <header className="w-full bg-amber-200 h-[80px] text-center flex justify-center items-center">포켓몬 도감!</header>
+      <header className="w-full bg-amber-200 h-[80px] text-center flex justify-center items-center text-4xl fixed">포켓몬 도감!</header>
       {children}
       </body>
     </html>
